@@ -66,5 +66,5 @@ jobs:
         password: ${{ secrets.PASS }}
         port: 22
         script: |
-           sudo cp /tmp/*.jar /opt/
-           sudo ls -lart /opt
+           sudo cp /tmp/*.jar /home/ubuntu/b
+           sudo ls -lart /home/ubuntu/b
